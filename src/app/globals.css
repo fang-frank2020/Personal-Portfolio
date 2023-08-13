@@ -1,13 +1,22 @@
 
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
 
 .NavBar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
+    margin: 0;
 }
 
 .NavItem {
-    margin: 1.5em 4em;
+    padding: 1.5em 4em;
+    cursor: pointer;
 }
 
 .NavRest {
@@ -16,7 +25,8 @@
 }
 
 .Linkedin {
-    margin: 1em 2em;
+    margin: 1.05em 4em 1em 2em;
+    
 }
 
 .Name {
@@ -24,3 +34,117 @@
     font-size: 2em;
     margin: 0.25em 1em;
 }
+
+.LeftSide {
+    width: 40%;
+    margin: 20vh 0 1vh 12vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.Welcome {
+    font-size: 6vw;
+}
+
+.Intro {
+    margin-top: 1em;
+    margin-left: 4vw;
+    font-size: 2.5vw;
+}
+
+@keyframes beginning {
+    0% {content: "I";}
+  17% {content: "I ";}
+  34% {content: "I a";}
+  50% {content: "I am";}
+  67% {content: "I am ";}
+  84% {content: "I am a";}
+  100% {content: "I am a ";}
+}
+
+@keyframes changed {
+    0% {content: "S";}
+    1.8% {content: "So";}
+    3.6% {content: "Sof";}
+    5.4% {content: "Soft";}
+    7.1% {content: "Softw";}
+    8.9% {content: "Softwa";}
+    10.7% {content: "Softwar";}
+    12.5% {content: "Software";}
+    14.3% {content: "Software ";}
+    16.1% {content: "Software E";}
+    17.9% {content: "Software En";}
+    19.6% {content: "Software Eng";}
+    21.4% {content: "Software Engi";}
+    23.2% {content: "Software Engin";}
+    25% {content: "Software Engine";}
+    26.8% {content: "Software Enginee";}
+    28.6% {content: "Software Engineer";}
+    30.4% {content: "Software Engineer";}
+    32.1% {content: "Software Engineer";}
+    33.9% {content: "W";}
+    35.7% {content: "We";}
+    37.5% {content: "Web";}
+    39.3% {content: "Webs";}
+    41.1% {content: "Websi";}
+    42.9% {content: "Websit";}
+    44.6% {content: "Website";}
+    46.4% {content: "Website ";}
+    48.2% {content: "Website D";}
+    50% {content: "Website De";}
+    51.8% {content: "Website Dev";}
+    53.6% {content: "Website Deve";}
+    55.4% {content: "Website Devel";}
+    57.1% {content: "Website Develo";}
+    58.9% {content: "Website Develop";}
+    60.7% {content: "Website Develope";}
+    62.5% {content: "Website Developer";}
+    64.3% {content: "Website Developer";}
+    66.1% {content: "Website Developer";}
+    67.9% {content: "C";}
+    69.6% {content: "CS";}
+    71.4% {content: "CS ";}
+    73.2% {content: "CS S";}
+    75% {content: "CS St";}
+    76.8% {content: "CS Stu";}
+    80.4% {content: "CS Stud";}
+    81.8% {content: "CS Stude";}
+    82.1% {content: "CS Studen";}
+    83.9% {content: "CS Student";}
+    85.7% {content: "CS Student ";}
+    87.5% {content: "CS Student @";}
+    89.3% {content: "CS Student @U";}
+    91.1% {content: "CS Student @UM";}
+    92.9% {content: "CS Student @UMi";}
+    94.6% {content: "CS Student @UMic";}
+    96.4% {content: "CS Student @UMich";}
+    98.2% {content: "CS Student @UMich";}
+    100% {content: "CS Student @UMich";}
+}
+
+@keyframes cursorBlink {
+    0% {content: ""}
+    50% {content: "|"}
+    100% {content: ""}
+}
+
+
+.changed::before {
+    animation: changed 6s linear 0s 1 normal forwards;
+    animation-iteration-count: infinite;
+    content: "";
+}
+
+.changed::after {
+    animation: cursorBlink 0.6s linear 2.2s 1 normal forwards, cursorBlink 0.6s linear 2.2s 1 normal forwards;
+    content: "|";
+    animation-iteration-count: infinite;
+}
+
+/* .changed {
+    animation-name: changed;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+} */
+
