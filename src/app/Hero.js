@@ -1,4 +1,5 @@
-
+'use client';
+import { Image } from '@chakra-ui/react';
 
 export default function Hero() {
     return(
@@ -15,7 +16,12 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="RightSide">
-
+                    <Image 
+                    src='/img.jpg'
+                    boxSize="35vw"
+                    borderRadius="50%"
+                    alt="personal picture"
+                    />
                 </div>
             </div>
         </div>
