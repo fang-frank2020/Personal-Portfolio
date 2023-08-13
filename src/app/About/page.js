@@ -12,17 +12,17 @@ export default function About() {
                     <div className="Me">
                         <div className="MeFirst">
                             <span>{`Hey, I'm Frank! I am sophomore studying Computer Science at the University of Michigan,
-                            Ann Arbor. I am currently looking for a software eningeering internships for Summer 2024.
+                            Ann Arbor. I am currently looking for a software eningeering internship for Summer 2024.
                             Please contact me through`}</span>
                         </div> 
-                        <a className="LinkedinText" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
+                        <a className="LinkedinText" target="_blank" href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
                         <div className="MeThird">
                             for any questions!
                         </div>
                     </div>
 
                     <div className="Technologies">
-                        Lanuages and Technologies that I have worked with:
+                        Languages and Technologies that I have worked with:
                         <div className="TechGrid">
                             <TechGridItem itemName="C++" />
                             <TechGridItem itemName="ReactJS" />
