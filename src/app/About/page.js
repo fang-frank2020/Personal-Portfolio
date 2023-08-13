@@ -11,9 +11,9 @@ export default function About() {
                 <div className="AboutText">
                     <div className="Me">
                         <div className="MeFirst">
-                            Hey, I'm Frank! I am sophomore studying Computer Science at the University of Michigan,
+                            <span>{`Hey, I'm Frank! I am sophomore studying Computer Science at the University of Michigan,
                             Ann Arbor. I am currently looking for a software eningeering internships for Summer 2024.
-                            Please contact me through
+                            Please contact me through`}</span>
                         </div> 
                         <a className="LinkedinText" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
                         <div className="MeThird">
