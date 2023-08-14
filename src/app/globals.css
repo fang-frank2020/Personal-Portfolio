@@ -22,7 +22,7 @@ a {
 }
 
 .NavItem {
-    width: 15em;
+    width: 10em;
     height: 5em;
     cursor: pointer;
     text-decoration: none;
@@ -186,7 +186,7 @@ a {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 10vh;
 }
 
 
@@ -271,6 +271,52 @@ a {
 
 .Projects {
     margin: 12vh 5vw 8vh 5vw;
+}
+
+
+.SideBar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 5vh;
+}
+
+.SideBar {
+    display: none;
+}
+
+@media only screen and (max-width: 950px) {
+    .NavBar {
+        display: none;
+    }
+
+    .SideBar {
+        display: block;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .SideItems {
+        position: absolute;
+        z-index: 1;
+        height: 5vh;
+    }
+
+    .SideItem:hover {
+        background-color: rgb(241, 240, 240);
+    }
+
+    .LeftSide {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .RightSide {
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 
