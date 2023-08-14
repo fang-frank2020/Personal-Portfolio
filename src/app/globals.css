@@ -355,6 +355,32 @@ a {
         justify-content: center;
         align-items: center;
     }
+
 }
+
+
+.ExperienceSection {
+    display: flex;
+    flex-direction: row;
+    margin: 4vh 0 4vh 3vw;
+    width: 60vw;
+}
+
+
+.ExperienceText {
+    margin: 0.5vh 1vw;
+    border-left: solid;
+    padding: 0 1em;
+}
+
+.ExperienceTextSection {
+    margin: 0.5vw;
+}
+
+.Position {
+    margin: 0.5vw;
+    font-size: 2vw;
+}
+
 
 
