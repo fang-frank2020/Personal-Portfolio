@@ -191,7 +191,7 @@ a {
 
 
 .About {
-    margin: 12vh 5vw 8vh 5vw;
+    padding: 12vh 5vw 8vh 5vw;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -233,7 +233,7 @@ a {
 }
 
 .Experience {
-    margin: 12vh 5vw 8vh 5vw;
+    padding: 12vh 5vw 8vh 5vw;
 }
 
 .Me {
@@ -270,7 +270,7 @@ a {
 }
 
 .Projects {
-    margin: 12vh 5vw 8vh 5vw;
+    padding: 12vh 5vw 8vh 5vw;
 }
 
 
@@ -281,7 +281,11 @@ a {
     height: 5vh;
 }
 
-.SideBar {
+.SideBarClose {
+    display: none;
+}
+
+.SideBarOpen {
     display: none;
 }
 
@@ -290,20 +294,36 @@ a {
         display: none;
     }
 
-    .SideBar {
-        display: block;
-        margin-left: 1em;
-        margin-top: 1em;
+    .SideBarOpen {
+        background-color: rgb(240, 248, 255, 0.9);
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+        height: 98vh;
+        width: 25vw;
     }
 
-    .SideItems {
+    .SideBarClose {
+        display: flex;
         position: absolute;
-        z-index: 1;
-        height: 5vh;
+        flex-direction: column;
+        padding-top: 2vh;
+        width: 20vw;
+        width: 25vw;
+    }
+
+
+    .SideItem {
+        height: 12vh;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .SideItem:hover {
-        background-color: rgb(241, 240, 240);
+        background-color: rgba(202, 210, 217, 0.9);
     }
 
     .LeftSide {
@@ -316,6 +336,24 @@ a {
         margin-top: 0;
         align-items: center;
         justify-content: center;
+    }
+
+    .HamburgerLinkedin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+
+    .NavItem {
+        width:100%;
+        height: 5em;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

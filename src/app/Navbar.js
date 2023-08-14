@@ -17,20 +17,12 @@ export default function Navbar() {
     function activateSideBar() {
         return(
             <div className="SideBarItems">
+                <Navitem text="Home" />
+                <Navitem text="About" />
+                <Navitem text="Projects" />
+                <Navitem text="Experience" />
                 <div className="SideItem">
-                    <p>Home</p>
-                </div>
-                <div className="SideItem">
-                    <p>Projects</p>
-                </div>
-                <div className="SideItem">
-                    <p>Experience</p>
-                </div>
-                <div className="SideItem">
-                    <p>Experience</p>
-                </div>
-                <div className="SideItem">
-                    <a href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
+                    <a className="HamburgerLinkedin" href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
                 </div>
             </div>
         )
@@ -57,7 +49,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className="SideBar">
+            <div className={active ? "SideBarOpen" : "SideBarClose"}>
                 <button className= {active ? "hamburger hamburger--spring is-active" : "hamburger hamburger--spring"} type="button" onClick={() => hamburgerClicked()}>
                     <span className="hamburger-box">
                         <span className="hamburger-inner"></span>
