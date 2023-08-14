@@ -5,7 +5,7 @@ export default function Navitem(props) {
 
     return(
         <div className="NavItem" >
-            <Link className="NavItemLink" href={text != "Home" ? "/" + text : "/"}>{text}</Link>
+            <Link className="NavItemLink" href= {text + "/"}>{text}</Link>
         </div>
     )
 }

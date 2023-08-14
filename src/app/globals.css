@@ -289,9 +289,23 @@ a {
     display: none;
 }
 
+.RightSideBar {
+    display: none;
+}
+
 @media only screen and (max-width: 950px) {
-    .NavBar {
+
+    .RightSideBar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .NavRest {
         display: none;
+    }
+
+    .Name {
+        display: block !important;
     }
 
     .SideBarOpen {
@@ -354,6 +368,20 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .TechGrid {
+        grid-template-columns: auto auto;
+    }
+
+    .HeroContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start ;
+    }
+    
+    .LeftSide {
+        margin: 10vh 0 10vh 0;
     }
 
 }
