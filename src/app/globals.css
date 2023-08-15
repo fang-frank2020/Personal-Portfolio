@@ -57,7 +57,7 @@ a {
     font-family: Courgette;
     font-style: italic;
     font-size: 2em;
-    margin: 0.3em 1em;
+    margin: 0.5em 1em;
 }
 
 .MeLink {
@@ -187,7 +187,7 @@ a {
     width: 50%;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 
 
