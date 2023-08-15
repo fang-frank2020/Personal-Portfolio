@@ -224,6 +224,8 @@ a {
 
 .TechItem {
     margin-left: 0.25vw;
+    display: flex;
+    align-items: center;
 }
 
 
