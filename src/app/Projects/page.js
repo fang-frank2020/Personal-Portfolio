@@ -19,8 +19,8 @@ export default function Projects() {
                 <ProjectItemSecond title="Holidays" date="Summer/Fall 2022" stackArray={["HTML/CSS", "JavaScript", "Git"]}hasGit={true} gitLink="https://github.com/fang-frank2020/Holidays" 
                 imageLink="../Holidays.png" imageAlt="Holidays image" description="As a person celebrating many different cultures
                 and holidays, I would always lose track of when different holidays were. As a result, I created this website to display all
-                of the various holidays from different countries around the world. This way, people would be able to find all the different
-                holidays from different countries all on one website!
+                of the various holidays from different countries around the world. This way, people can find most of the world's
+                holidays all on one place!
                 "/> 
 
                 <ProjectItem title="Cat & Dog Classification" date="Spring 2021" stackArray={["Python", "TensorFlow", "Pandas"]}hasGit={false}
