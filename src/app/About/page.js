@@ -1,4 +1,4 @@
-import TechGridItem from '../TechGridItem';
+import TechGridItem from './TechGridItem';
 import Title from '../Title';
 import Navbar from '../Navbar';
 

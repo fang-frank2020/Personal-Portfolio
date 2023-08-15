@@ -411,4 +411,53 @@ a {
 }
 
 
+.ProjectItemWrapper {
+    display: flex;
+    flex-direction: row;
+}
 
+.ProjectText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2em;
+    font-size: 1.25em;
+}
+
+.GitBox {
+    display: flex;
+    flex-direction:row;
+    background-color: lightgray;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
+.GitName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.ProjectTitle {
+    font-size: 3em;
+}
+
+.ProjectDate {
+    font-size: 1.5em;
+    margin: 2.5vh 0;
+}
+
+.SourceCode {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProjectItemWrapper {
+    margin: 4em 2em 8em 0;
+}

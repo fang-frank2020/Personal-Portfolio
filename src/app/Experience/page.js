@@ -12,7 +12,7 @@ export default function Experience() {
                 <Title titleName="Experience" />
                 <div className="ExperienceSectionWrapper">
                     <ExperienceSection position="Coding Instructor @ iD Tech Camps" date="June 2023 - August 2023"
-                    description="I taught groups of 8-12 kids basic programming principles where I first
+                    description="I taught groups of 5-8 students basic programming principles where I first
                     taught visual programming through Scratch and then transitioned into Python.
                     "/>
 
