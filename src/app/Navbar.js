@@ -18,8 +18,8 @@ export default function Navbar() {
         return(
             <div className="SideBarItems">
                 <Navitem text="About" />
-                <Navitem text="Projects" />
                 <Navitem text="Experience" />
+                <Navitem text="Projects" />
                 <div className="SideItem">
                     <a className="HamburgerLinkedin" href="https://www.linkedin.com/in/frank-fang-b7a20b21a/">Linkedin</a>
                 </div>

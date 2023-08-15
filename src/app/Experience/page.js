@@ -16,7 +16,7 @@ export default function Experience() {
                     taught visual programming through Scratch and then transitioned into Python.
                     "/>
 
-                    <ExperienceSection position="Tech Consultant @ University of Michigan" date="Janurary 2023 - May 2023"
+                    <ExperienceSection position="Tech Consultant @ University of Michigan" date="January 2023 - May 2023"
                     description="I served as the face of the IT department where I interacted with customers, analyzed customers' technological problems,
                     performed troubleshooting, created tickets, and also worked at checkout.
                     " />

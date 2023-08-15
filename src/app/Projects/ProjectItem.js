@@ -1,8 +1,11 @@
 'use client';
 import { Image } from '@chakra-ui/react';
+import TechGridItem from '../TechGridItem';
 
 export default function ProjectItem(props) {
-    const {title, date, hasGit, gitLink, imageLink, imageAlt, description} = props;
+    const {title, date, stackArray, hasGit, gitLink, imageLink, imageAlt, description} = props;
+
+    var stack = stackArray || [];
     return(
         <div className="ProjectItemWrapper">
             <div className="Image">
@@ -29,6 +32,11 @@ export default function ProjectItem(props) {
                 </div> : ""}
                 <div className="ProjectDescription">
                     <p>{description}</p>
+                </div>
+                <div className="ProjectStack">
+                    {stack.map((element) =>{
+                        return(<TechGridItem key={title + element}itemName={element} />)
+                    })}
                 </div>
             </div>
         </div>

@@ -461,3 +461,9 @@ a {
 .ProjectItemWrapper {
     margin: 4em 2em 8em 0;
 }
+
+.ProjectStack {
+    display: grid;
+    margin-top: 1em;
+    grid-template-columns: auto auto auto;
+}
