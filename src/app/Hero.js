@@ -17,7 +17,7 @@ export default function Hero() {
                 </div>
                 <div className="RightSide">
                     <Image 
-                    src='/img.jpg'
+                    src='/frankfang.jpg'
                     boxSize="40vw"
                     borderRadius="50%"
                     alt="personal picture"

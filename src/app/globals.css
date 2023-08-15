@@ -54,7 +54,8 @@ a {
 }
 
 .Name {
-    font-family: 'Pacifico', cursive;
+    font-family: Courgette;
+    font-style: italic;
     font-size: 2em;
     margin: 0.3em 1em;
 }
