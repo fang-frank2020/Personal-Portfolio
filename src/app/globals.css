@@ -298,6 +298,24 @@ a {
 
 @media only screen and (max-width: 950px) {
 
+    .LeftSide {
+        width: 100%;
+    }
+
+    .Welcome {
+        font-size: 10vw;
+    }
+
+    .Intro {
+        font-size: 5vw;
+    }
+
+    .RightSide {
+        width: 100%;
+    }
+
+
+
     .RightSideBar {
         display: flex;
         justify-content: flex-end;
@@ -318,7 +336,7 @@ a {
         flex-direction: column;
         padding-top: 2vh;
         height: 98vh;
-        width: 25vw;
+        width: 7em;
     }
 
     .SideBarClose {
@@ -327,7 +345,7 @@ a {
         flex-direction: column;
         padding-top: 2vh;
         width: 20vw;
-        width: 25vw;
+        width: 7em;
     }
 
 
@@ -410,7 +428,7 @@ a {
 
 .Position {
     margin: 0.5vw;
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 
