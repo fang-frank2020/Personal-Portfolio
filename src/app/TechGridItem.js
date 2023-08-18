@@ -8,7 +8,7 @@ export default function TechGridItem(props) {
             <div className="TechWrapper">
                 <Image 
                     src="../checkbox.svg"
-                    boxSize="2vw"
+                    boxSize="2em"
                     alt="checkbox"
                 />
                 <div className="TechItem">

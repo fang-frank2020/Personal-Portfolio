@@ -405,6 +405,9 @@ a {
         margin: 10vh 0 10vh 0;
     }
 
+    .Image {
+        display: none;
+    }
 }
 
 
