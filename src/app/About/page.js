@@ -26,7 +26,7 @@ export default function About() {
                         <div className="TechGrid">
                             <TechGridItem itemName="C++" />
                             <TechGridItem itemName="ReactJS" />
-                            <TechGridItem itemName="Git" />
+                            <TechGridItem itemName="MySQL" />
                             <TechGridItem itemName="Python" />
                             <TechGridItem itemName="ExpressJS" />
                             <TechGridItem itemName="TensorFlow" />

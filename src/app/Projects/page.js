@@ -9,7 +9,7 @@ export default function Projects() {
             <Navbar />
             <div className="Projects">
                 <Title titleName="Projects" />
-                <ProjectItem title="TravelTour" date="Summer 2023" stackArray={["ReactJS", "ExpressJS", "PostMan"]}hasGit={true} gitLink="https://github.com/fang-frank2020/TravelTour"
+                <ProjectItem title="TravelTour" date="Summer 2023" stackArray={["ReactJS", "ExpressJS", "MySQL", "NodeJS"]}hasGit={true} gitLink="https://github.com/fang-frank2020/TravelTour"
                 imageLink="../TravelTour.png" imageAlt="TravelTour image"
                 description="I built this web application as a space where people can come together and share their thoughts about different travel
                 locations that they have been to and/or read about new locations. Under every location, people can gain an understanding of the location
