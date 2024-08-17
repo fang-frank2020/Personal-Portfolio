@@ -6,11 +6,13 @@ export default function TechGridItem(props) {
     return(
         <>
             <div className="TechWrapper">
-                <Image 
-                    src="../checkbox.svg"
-                    boxSize="2em"
-                    alt="checkbox"
-                />
+                <div className="checkBoxItem">
+                    <Image 
+                        src="../checkbox.svg"
+                        boxSize="2em"
+                        alt="checkbox"
+                    />
+                </div>
                 <div className="TechItem">
                     {itemName}
                 </div>

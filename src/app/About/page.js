@@ -11,7 +11,7 @@ export default function About() {
                 <div className="AboutText">
                     <div className="Me">
                         <div className="MeFirst">
-                            <span>{`Hey, I'm Frank! I am a sophomore studying Computer Science at the University of Michigan,
+                            <span>{`Hey, I'm Frank! I am a junior studying Computer Science at the University of Michigan,
                             Ann Arbor. I am currently looking for a software engineering internship for Summer 2024.
                             Please contact me through`}</span>
                         </div> 
@@ -25,6 +25,9 @@ export default function About() {
                         Languages and Technologies that I have worked with:
                         <div className="TechGrid">
                             <TechGridItem itemName="C++" />
+                            <TechGridItem itemName="C#" />
+                            <TechGridItem itemName="ASP.NET (Blazor)" />
+                            <TechGridItem itemName="Azure Portal" />
                             <TechGridItem itemName="ReactJS" />
                             <TechGridItem itemName="MySQL" />
                             <TechGridItem itemName="Python" />

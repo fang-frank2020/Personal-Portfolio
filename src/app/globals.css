@@ -475,7 +475,8 @@ a {
 }
 
 .ProjectDescription {
-    font-size: 1.15em;
+    width: 80%;
+    font-size: 1.5em;
 }
 
 .SourceCode {
@@ -487,11 +488,17 @@ a {
 }
 
 .ProjectItemWrapper {
-    margin: 4em 2em 8em 0;
+    margin: 6em 12em;
 }
 
 .ProjectStack {
     display: grid;
-    margin-top: 1em;
+    margin: 0 2em;
     grid-template-columns: auto auto auto;
+}
+
+.checkBoxItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

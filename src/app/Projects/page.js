@@ -16,7 +16,7 @@ export default function Projects() {
                 by reading other peoples' posts and/or help other people get a better understanding of the location by creating their own posts!
                 "/>
 
-                <ProjectItemSecond title="Holidays" date="Summer/Fall 2022" stackArray={["HTML/CSS", "JavaScript", "Git"]}hasGit={true} gitLink="https://github.com/fang-frank2020/Holidays" 
+                <ProjectItem title="Holidays" date="Summer/Fall 2022" stackArray={["HTML/CSS", "JavaScript", "Git"]}hasGit={true} gitLink="https://github.com/fang-frank2020/Holidays" 
                 imageLink="../Holidays.png" imageAlt="Holidays image" description="As a person celebrating many different cultures
                 and holidays, I would always lose track of when different holidays were. As a result, I created this website to display all
                 of the various holidays from different countries around the world. This way, people can find most of the world's
