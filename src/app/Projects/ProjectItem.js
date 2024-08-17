@@ -18,25 +18,27 @@ export default function ProjectItem(props) {
                 <div className="ProjectDate">
                     <p>{date}</p>
                 </div>
-                {hasGit ? <div className="GitBox">
-                    <div className="GitImage">
-                        <Image 
-                            src="/github-mark.svg"
-                            boxSize="3vw"
-                            alt="github-mark"
-                        />
-                    </div>
-                    <div className="GitName">
-                        <a className="SourceCode" href={gitLink}>Source Code</a>
-                    </div>
-                </div> : ""}
                 <div className="ProjectDescription">
                     <p>{description}</p>
                 </div>
-                <div className="ProjectStack">
-                    {stack.map((element) =>{
-                        return(<TechGridItem key={title + element}itemName={element} />)
-                    })}
+                <div style={{"display": "flex", "flexDirection": "row", "marginTop": "2em"}}>
+                    <div className="ProjectStack">
+                        {stack.map((element) =>{
+                            return(<TechGridItem key={title + element}itemName={element} />)
+                        })}
+                    </div>
+                    {hasGit ? <div className="GitBox">
+                        <div className="GitImage">
+                            <Image 
+                                src="/github-mark.svg"
+                                boxSize="3vw"
+                                alt="github-mark"
+                            />
+                        </div>
+                        <div className="GitName">
+                            <a className="SourceCode" href={gitLink}>Source Code</a>
+                        </div>
+                    </div> : ""}
                 </div>
             </div>
         </div>
