@@ -11,7 +11,7 @@ export default function Experience() {
             <div className="Experience">
                 <Title titleName="Experience" />
                 <div className="ExperienceSectionWrapper">
-                    <ExperienceSection position="Temporary Junior Software Developer (Intern) @ Golub Capital" date="June 2024 - Present"/>
+                    <ExperienceSection position="Software Engineering Intern @ Golub Capital" date="June 2024 - August 2024"/>
 
                     <ExperienceSection position="EECS 203(Discrete Mathematics) Instructional Aide" date="August 2023 - May 2024"
                     description="I host weekly discussions and office hours, where I am supporting students in learning course content. Additionally,
